@@ -65,9 +65,14 @@ Y = pd.DataFrame(processed_Y, columns = ['Result'])
 
 import matplotlib.pyplot as plt
 statics = Y.apply(pd.value_counts)
-plt.plot(statics, 'r*')
-plt.xlabel('Label')
-plt.ylabel('Frequency')
+number_of_records = statics['Result']
+
+ind = np.arange(1, statics.shape[0]+1) # the x locations for the groups
+plt.bar(ind, number_of_records, color="blue", align='center')
+plt.xlabel('Outcomes', fontsize = 20)
+plt.ylabel('Number of records', fontsize = 20)
+plt.rc('xtick',labelsize=18)
+plt.rc('ytick',labelsize=18)
 
 
 
@@ -151,6 +156,44 @@ for item_name in X.keys():
         else:
             X[item_name].fillna('unknown', inplace = True)
 X['Crew_Size'].head()
+
+
+
+
+####################################################################
+############# Upsamling the minority class #########################
+####################################################################
+from sklearn.utils import resample
+
+data_rev = X.copy(deep=True)
+data_rev['Result'] = Y_pred
+
+df_majority_1 = data_rev[data_rev['Result']==1]
+df_majority_3 = data_rev[data_rev['Result']==3]
+df_minority_2 = data_rev[data_rev['Result']==2]
+df_minority_4 = data_rev[data_rev['Result']==4]
+df_minority_5 = data_rev[data_rev['Result']==5]
+
+# Upsample minority class
+df_minority_2_upsampled = resample(df_minority_2, 
+                                 replace=True,     # sample with replacement
+                                 n_samples=20000,    # to match majority class
+                                 random_state=123) # reproducible results
+df_minority_4_upsampled = resample(df_minority_4, 
+                                 replace=True,     # sample with replacement
+                                 n_samples=20000,    # to match majority class
+                                 random_state=123) # reproducible results
+df_minority_5_upsampled = resample(df_minority_5, 
+                                 replace=True,     # sample with replacement
+                                 n_samples=20000,    # to match majority class
+                                 random_state=123) # reproducible results
+
+df_upsampled = pd.concat([df_majority_1, df_majority_3, df_minority_2_upsampled, df_minority_4_upsampled, df_minority_5_upsampled])
+
+df_upsampled['Result'].value_counts()
+
+X = df_upsampled.drop(columns = 'Result')
+Y_pred = df_upsampled['Result']
 
 
 #########################################################
@@ -423,7 +466,7 @@ X_sub = X[['Locale_Reference', 'State_Reference', 'Flight_Conditions', 'Weather_
 X_train, X_test, Y_train, Y_test = train_test_split(X_sub, Y_pred, test_size = 0.15)
 
 label = []
-for i in range(5):
+for i in range(2):
     print ('Train the {} model, please keep waiting !!!'.format(i+1))
     print ('\n')
     
