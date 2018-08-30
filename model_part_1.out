@@ -1,0 +1,423 @@
+fatal: destination path 'models' already exists and is not an empty directory.
+Docker image path: index.docker.io/tensorflow/tensorflow:latest-gpu
+Cache folder set to /gpfs22/home/zhanx15/.singularity/docker
+Creating container runtime...
+Exploding layer: sha256:8ee29e426c26c79e7ba03ccc8bbc7fe99db00ffcbccb679d9c643b5546d8dc8a.tar.gz
+Exploding layer: sha256:6e83b260b73b908ebabde46b72fc5790bf4f029b53acbbfe35da8ff8fba795ac.tar.gz
+Exploding layer: sha256:e26b65fd1143ee4f9b7b6b958aeafdb996172d10b723f0bba24335a8f7ae692c.tar.gz
+Exploding layer: sha256:40dca07f8222e24aab97f026444d66a7604e4ae2b708cf079ff67a90c42efa60.tar.gz
+Exploding layer: sha256:b420ae9e10b3f6a74f527914bc3c766b128435a62eca1061f41167205d5b0230.tar.gz
+Exploding layer: sha256:a579c13275563497b4e32d82e404e16e3ebae98f7aff00027365886454864a93.tar.gz
+Exploding layer: sha256:b440bb8df79eb13f624482786af4221b6ad59b6953a821c07f76755b29a80096.tar.gz
+Exploding layer: sha256:de3b2ccf9562950b31e40274d491c76fe4061216a9101b893bd88a63a85934f9.tar.gz
+Exploding layer: sha256:43fd6e1283ef1fbd765b3e6e4eaace97120260a92c15faf99d6f2b3d83d92516.tar.gz
+Exploding layer: sha256:c763653fa393b49b90bb402e831eeb3d1c6b1870f0fe158420c1c872638837a0.tar.gz
+Exploding layer: sha256:8e61eab710290fb186cca15590e594f0a46363efc5103583d39f0da60b33606a.tar.gz
+Exploding layer: sha256:3f7fdaaf37c205b73ed3751af504858115245cfc5c76ac5af0271e39e7e8744a.tar.gz
+Exploding layer: sha256:ff90a77a38f53f513eab49bdcedbe2d7b16931f8634f279918fafe01311e84dc.tar.gz
+Exploding layer: sha256:651a845d4ce242a5c3014b8426dfc57d1ff2a503ee645f3e2e862fb9fc4fb941.tar.gz
+Exploding layer: sha256:2b86d4d0afcf7c525f986dd5ae81317229771efa5600c98652025298894b9bba.tar.gz
+Exploding layer: sha256:c13d0d6ad71d61543cdc05828e4a63874ac9d5e44ada86e009039ce1225f3d88.tar.gz
+Exploding layer: sha256:ab617d1053f5fa6975043fc6740e42ae683bc8f430d65274bd347249f5771f69.tar.gz
+[33mWARNING: Non existent bind point (directory) in container: '/scratch'
+[0m[33mWARNING: Non existent bind point (directory) in container: '/data'
+[0m[33mWARNING: Non existent bind point (directory) in container: '/dors'
+[0m[33mWARNING: Non existent bind point (directory) in container: '/gpfs22'
+[0m[33mWARNING: Non existent bind point (directory) in container: '/gpfs23'
+[0m[33mWARNING: Non existent 'bind path' source: '/legodata'
+[0m[33mWARNING: Skipping user bind, non existent bind point (file) in container: '/usr/bin/nvidia-smi'
+[0m(array([1, 2, 3, 4, 5]), array([16508,  8636, 18841,  8261, 12327]))
+After the upsampling, the number of each item is: 
+
+[1 2 3 4 5]
+[16508 18841 18841 18841 18841]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+('The unique data types across all the items are:', set([<type 'numpy.float64'>, <type 'list'>, <type 'float'>, <type 'str'>]))
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+('current fold: ', 1)
+hybrid_model_gpu.py:258: RuntimeWarning: invalid value encountered in double_scalars
+  confusion_report[i, 2] = 2 * (confusion_report[i, 0] * confusion_report[i, 1])/(confusion_report[i, 0] + confusion_report[i, 1])
+WARNING:tensorflow:Using temporary folder as model directory: /tmp/tmpunLS_i
+WARNING:tensorflow:Using temporary folder as model directory: /tmp/tmp02fxnm
+WARNING:tensorflow:Using temporary folder as model directory: /tmp/tmpUAh103
+WARNING:tensorflow:Using temporary folder as model directory: /tmp/tmp7_eUOZ
+WARNING:tensorflow:Using temporary folder as model directory: /tmp/tmp0676hH
+WARNING:tensorflow:Using temporary folder as model directory: /tmp/tmp4zCVp3
+WARNING:tensorflow:Using temporary folder as model directory: /tmp/tmpjBqiy2
+WARNING:tensorflow:Using temporary folder as model directory: /tmp/tmphuluuG
+WARNING:tensorflow:Using temporary folder as model directory: /tmp/tmpV8SxKI
+WARNING:tensorflow:Using temporary folder as model directory: /tmp/tmpdbwJS4
+('Accuracy: ', 0)
+('The best set of parameters is \n', {'vect__ngram_range': (1, 2), 'clf__max_iter': 80, 'clf__loss': 'modified_huber', 'tfidf__use_idf': True, 'clf__penalty': 'elasticnet', 'clf__alpha': 1e-05})
+
+
+
+Train the 1 model, please keep waiting !!!
+
+
+
+Train the 2 model, please keep waiting !!!
+
+
+
+Train the 3 model, please keep waiting !!!
+
+
+
+Train the 4 model, please keep waiting !!!
+
+
+
+Train the 5 model, please keep waiting !!!
+
+
+
+Train the 6 model, please keep waiting !!!
+
+
+
+Train the 7 model, please keep waiting !!!
+
+
+
+Train the 8 model, please keep waiting !!!
+
+
+
+Train the 9 model, please keep waiting !!!
+
+
+
+Train the 10 model, please keep waiting !!!
+('common count', {1: 379.0, 2: 900.0, 3: 336.0, 4: 870.0, 5: 852.0})
+('dict_count', {1: 463.0, 2: 962.0, 3: 441.0, 4: 911.0, 5: 902.0})
+('common_acuracy', 0.8185745140388769)
+('common_acuracy', 0.9355509355509356)
+('common_acuracy', 0.7619047619047619)
+('common_acuracy', 0.9549945115257958)
+('common_acuracy', 0.9445676274944568)
+('accuracy', array([0.81857451, 0.93555094, 0.76190476, 0.95499451, 0.94456763]))
+('proportion of disagreed records', array([0.32492308, 0.06092308, 0.41969231, 0.09046154, 0.104     ]))
+Classification report on Hybrid model:
+             precision    recall  f1-score   support
+
+          1       0.68      0.61      0.64      1651
+          2       0.93      0.91      0.92      1885
+          3       0.62      0.69      0.65      1884
+          4       0.91      0.89      0.90      1884
+          5       0.89      0.90      0.90      1884
+
+avg / total       0.81      0.81      0.81      9188
+
+Classification report on SVM:
+             precision    recall  f1-score   support
+
+          1       0.72      0.56      0.63      1651
+          2       0.86      0.94      0.90      1885
+          3       0.66      0.58      0.62      1884
+          4       0.79      0.92      0.85      1884
+          5       0.87      0.92      0.90      1884
+
+avg / total       0.78      0.79      0.78      9188
+
+Classification report on deep learning:
+             precision    recall  f1-score   support
+
+          1       0.60      0.57      0.58      1651
+          2       0.83      0.91      0.87      1885
+          3       0.57      0.45      0.50      1884
+          4       0.81      0.90      0.85      1884
+          5       0.82      0.87      0.84      1884
+
+avg / total       0.73      0.74      0.73      9188
+
+('current fold: ', 2)
+WARNING:tensorflow:Using temporary folder as model directory: /tmp/tmpxsbI7z
+WARNING:tensorflow:Using temporary folder as model directory: /tmp/tmpXlSDl3
+WARNING:tensorflow:Using temporary folder as model directory: /tmp/tmpXiDlqx
+WARNING:tensorflow:Using temporary folder as model directory: /tmp/tmpDDEmJ5
+WARNING:tensorflow:Using temporary folder as model directory: /tmp/tmpOSVhyL
+WARNING:tensorflow:Using temporary folder as model directory: /tmp/tmpcL3Skt
+WARNING:tensorflow:Using temporary folder as model directory: /tmp/tmpGV9dnz
+WARNING:tensorflow:Using temporary folder as model directory: /tmp/tmp2Baqmg
+WARNING:tensorflow:Using temporary folder as model directory: /tmp/tmpcV92ZP
+WARNING:tensorflow:Using temporary folder as model directory: /tmp/tmpwQMbVD
+('Accuracy: ', 0)
+('The best set of parameters is \n', {'vect__ngram_range': (1, 2), 'clf__max_iter': 80, 'clf__loss': 'modified_huber', 'tfidf__use_idf': True, 'clf__penalty': 'elasticnet', 'clf__alpha': 1e-05})
+
+
+
+Train the 1 model, please keep waiting !!!
+
+
+
+Train the 2 model, please keep waiting !!!
+
+
+
+Train the 3 model, please keep waiting !!!
+
+
+
+Train the 4 model, please keep waiting !!!
+
+
+
+Train the 5 model, please keep waiting !!!
+
+
+
+Train the 6 model, please keep waiting !!!
+
+
+
+Train the 7 model, please keep waiting !!!
+
+
+
+Train the 8 model, please keep waiting !!!
+
+
+
+Train the 9 model, please keep waiting !!!
+
+
+
+Train the 10 model, please keep waiting !!!
+('common count', {1: 357.0, 2: 943.0, 3: 319.0, 4: 843.0, 5: 885.0})
+('dict_count', {1: 447.0, 2: 996.0, 3: 427.0, 4: 885.0, 5: 933.0})
+('common_acuracy', 0.7986577181208053)
+('common_acuracy', 0.9467871485943775)
+('common_acuracy', 0.747072599531616)
+('common_acuracy', 0.9525423728813559)
+('common_acuracy', 0.9485530546623794)
+('accuracy', array([0.79865772, 0.94678715, 0.7470726 , 0.95254237, 0.94855305]))
+('proportion of disagreed records', array([0.33498452, 0.06501548, 0.41795666, 0.07987616, 0.10216718]))
+Classification report on Hybrid model:
+             precision    recall  f1-score   support
+
+          1       0.68      0.65      0.66      1651
+          2       0.92      0.92      0.92      1885
+          3       0.64      0.68      0.66      1884
+          4       0.91      0.88      0.89      1884
+          5       0.90      0.89      0.90      1884
+
+avg / total       0.81      0.81      0.81      9188
+
+Classification report on SVM:
+             precision    recall  f1-score   support
+
+          1       0.71      0.58      0.64      1651
+          2       0.86      0.94      0.90      1885
+          3       0.68      0.59      0.63      1884
+          4       0.79      0.92      0.85      1884
+          5       0.88      0.92      0.90      1884
+
+avg / total       0.79      0.79      0.79      9188
+
+Classification report on deep learning:
+             precision    recall  f1-score   support
+
+          1       0.62      0.57      0.59      1651
+          2       0.80      0.93      0.86      1885
+          3       0.58      0.46      0.52      1884
+          4       0.81      0.90      0.86      1884
+          5       0.82      0.84      0.83      1884
+
+avg / total       0.73      0.74      0.73      9188
+
+('current fold: ', 3)
+WARNING:tensorflow:Using temporary folder as model directory: /tmp/tmp_xXTWW
+WARNING:tensorflow:Using temporary folder as model directory: /tmp/tmpv9MBD9
+WARNING:tensorflow:Using temporary folder as model directory: /tmp/tmpR6DL6c
+WARNING:tensorflow:Using temporary folder as model directory: /tmp/tmpK6YBBV
+WARNING:tensorflow:Using temporary folder as model directory: /tmp/tmp7cm4aM
+WARNING:tensorflow:Using temporary folder as model directory: /tmp/tmpW2EJgF
+WARNING:tensorflow:Using temporary folder as model directory: /tmp/tmp7Vl1tU
+WARNING:tensorflow:Using temporary folder as model directory: /tmp/tmpBrrdEb
+WARNING:tensorflow:Using temporary folder as model directory: /tmp/tmp2wuWj3
+WARNING:tensorflow:Using temporary folder as model directory: /tmp/tmpuyLQA3
+('Accuracy: ', 0)
+('The best set of parameters is \n', {'vect__ngram_range': (1, 2), 'clf__max_iter': 80, 'clf__loss': 'modified_huber', 'tfidf__use_idf': True, 'clf__penalty': 'elasticnet', 'clf__alpha': 1e-05})
+
+
+
+Train the 1 model, please keep waiting !!!
+
+
+
+Train the 2 model, please keep waiting !!!
+
+
+
+Train the 3 model, please keep waiting !!!
+
+
+
+Train the 4 model, please keep waiting !!!
+
+
+
+Train the 5 model, please keep waiting !!!
+
+
+
+Train the 6 model, please keep waiting !!!
+
+
+
+Train the 7 model, please keep waiting !!!
+
+
+
+Train the 8 model, please keep waiting !!!
+
+
+
+Train the 9 model, please keep waiting !!!
+
+
+
+Train the 10 model, please keep waiting !!!
+('common count', {1: 327.0, 2: 968.0, 3: 331.0, 4: 851.0, 5: 808.0})
+('dict_count', {1: 415.0, 2: 1028.0, 3: 446.0, 4: 913.0, 5: 861.0})
+('common_acuracy', 0.7879518072289157)
+('common_acuracy', 0.9416342412451362)
+('common_acuracy', 0.742152466367713)
+('common_acuracy', 0.932092004381161)
+('common_acuracy', 0.9384436701509872)
+('accuracy', array([0.78795181, 0.94163424, 0.74215247, 0.932092  , 0.93844367]))
+('proportion of disagreed records', array([0.31723315, 0.06618962, 0.41681574, 0.09063804, 0.10912343]))
+Classification report on Hybrid model:
+             precision    recall  f1-score   support
+
+          1       0.72      0.60      0.65      1651
+          2       0.93      0.90      0.92      1884
+          3       0.63      0.74      0.68      1884
+          4       0.91      0.90      0.91      1885
+          5       0.88      0.90      0.89      1884
+
+avg / total       0.82      0.81      0.81      9188
+
+Classification report on SVM:
+             precision    recall  f1-score   support
+
+          1       0.73      0.57      0.64      1651
+          2       0.86      0.93      0.89      1884
+          3       0.67      0.59      0.63      1884
+          4       0.78      0.93      0.85      1885
+          5       0.88      0.91      0.89      1884
+
+avg / total       0.78      0.79      0.78      9188
+
+Classification report on deep learning:
+             precision    recall  f1-score   support
+
+          1       0.63      0.56      0.59      1651
+          2       0.81      0.89      0.85      1884
+          3       0.59      0.47      0.52      1884
+          4       0.81      0.90      0.85      1885
+          5       0.80      0.85      0.82      1884
+
+avg / total       0.73      0.74      0.73      9188
+
+('current fold: ', 4)
+WARNING:tensorflow:Using temporary folder as model directory: /tmp/tmphh8ijl
+('Accuracy: ', 0)
+('The best set of parameters is \n', {'vect__ngram_range': (1, 2), 'clf__max_iter': 80, 'clf__loss': 'modified_huber', 'tfidf__use_idf': True, 'clf__penalty': 'elasticnet', 'clf__alpha': 1e-05})
+
+
+
+Train the 1 model, please keep waiting !!!
+Traceback (most recent call last):
+  File "hybrid_model_gpu.py", line 525, in <module>
+    model.train(input_fn = input_func, steps = 4000)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/estimator/estimator.py", line 376, in train
+    loss = self._train_model(input_fn, hooks, saving_listeners)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/estimator/estimator.py", line 1145, in _train_model
+    return self._train_model_default(input_fn, hooks, saving_listeners)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/estimator/estimator.py", line 1173, in _train_model_default
+    saving_listeners)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/estimator/estimator.py", line 1451, in _train_with_estimator_spec
+    _, loss = mon_sess.run([estimator_spec.train_op, estimator_spec.loss])
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/training/monitored_session.py", line 695, in __exit__
+    self._close_internal(exception_type)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/training/monitored_session.py", line 727, in _close_internal
+    h.end(self._coordinated_creator.tf_sess)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/training/basic_session_run_hooks.py", line 470, in end
+    self._save(session, last_step)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/training/basic_session_run_hooks.py", line 481, in _save
+    self._get_saver().save(session, self._save_path, global_step=step)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/training/saver.py", line 1620, in save
+    {self.saver_def.filename_tensor_name: checkpoint_file})
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/client/session.py", line 877, in run
+    run_metadata_ptr)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/client/session.py", line 1100, in _run
+    feed_dict_tensor, options, run_metadata)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/client/session.py", line 1272, in _do_run
+    run_metadata)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/client/session.py", line 1291, in _do_call
+    raise type(e)(node_def, op, message)
+tensorflow.python.framework.errors_impl.ResourceExhaustedError: /tmp/tmphh8ijl/model.ckpt-4000_temp_2cc429eff9dc4cde9bcd9b25b20209ca/part-00000-of-00001.data-00000-of-00001.tempstate9534355732113383165; No space left on device
+	 [[Node: save/SaveV2 = SaveV2[dtypes=[DT_FLOAT, DT_FLOAT, DT_FLOAT, DT_FLOAT, DT_FLOAT, ..., DT_FLOAT, DT_FLOAT, DT_FLOAT, DT_FLOAT, DT_INT64], _device="/job:localhost/replica:0/task:0/device:CPU:0"](save/ShardedFilename, save/SaveV2/tensor_names, save/SaveV2/shape_and_slices, dnn/head/beta1_power/_423, dnn/head/beta2_power/_425, dnn/hiddenlayer_0/bias/part_0/read/_427, dnn/dnn/hiddenlayer_0/bias/part_0/Adam/read/_429, dnn/dnn/hiddenlayer_0/bias/part_0/Adam_1/read/_431, dnn/hiddenlayer_0/kernel/part_0/read/_433, dnn/dnn/hiddenlayer_0/kernel/part_0/Adam/read/_435, dnn/dnn/hiddenlayer_0/kernel/part_0/Adam_1/read/_437, dnn/hiddenlayer_1/bias/part_0/read/_439, dnn/dnn/hiddenlayer_1/bias/part_0/Adam/read/_441, dnn/dnn/hiddenlayer_1/bias/part_0/Adam_1/read/_443, dnn/hiddenlayer_1/kernel/part_0/read/_445, dnn/dnn/hiddenlayer_1/kernel/part_0/Adam/read/_447, dnn/dnn/hiddenlayer_1/kernel/part_0/Adam_1/read/_449, dnn/input_from_feature_columns/input_layer/ATC_Advisory_embedding/embedding_weights/part_0/read/_451, dnn/dnn/input_from_feature_columns/input_layer/ATC_Advisory_embedding/embedding_weights/part_0/Adam/read/_453, dnn/dnn/input_from_feature_columns/input_layer/ATC_Advisory_embedding/embedding_weights/part_0/Adam_1/read/_455, dnn/input_from_feature_columns/input_layer/Aircraft_Component_embedding/embedding_weights/part_0/read/_457, dnn/dnn/input_from_feature_columns/input_layer/Aircraft_Component_embedding/embedding_weights/part_0/Adam/read/_459, dnn/dnn/input_from_feature_columns/input_layer/Aircraft_Component_embedding/embedding_weights/part_0/Adam_1/read/_461, dnn/input_from_feature_columns/input_layer/Aircraft_Operator_embedding/embedding_weights/part_0/read/_463, dnn/dnn/input_from_feature_columns/input_layer/Aircraft_Operator_embedding/embedding_weights/part_0/Adam/read/_465, dnn/dnn/input_from_feature_columns/input_layer/Aircraft_Operator_embedding/embedding_weights/part_0/Adam_1/read/_467, dnn/input_from_feature_columns/input_layer/Airspace_embedding/embedding_weights/part_0/read/_469, dnn/dnn/input_from_feature_columns/input_layer/Airspace_embedding/embedding_weights/part_0/Adam/read/_471, dnn/dnn/input_from_feature_columns/input_layer/Airspace_embedding/embedding_weights/part_0/Adam_1/read/_473, dnn/input_from_feature_columns/input_layer/Anomaly_embedding/embedding_weights/part_0/read/_475, dnn/dnn/input_from_feature_columns/input_layer/Anomaly_embedding/embedding_weights/part_0/Adam/read/_477, dnn/dnn/input_from_feature_columns/input_layer/Anomaly_embedding/embedding_weights/part_0/Adam_1/read/_479, dnn/input_from_feature_columns/input_layer/Contributing_Factors_Situations_embedding/embedding_weights/part_0/read/_481, dnn/dnn/input_from_feature_columns/input_layer/Contributing_Factors_Situations_embedding/embedding_weights/part_0/Adam/read/_483, dnn/dnn/input_from_feature_columns/input_layer/Contributing_Factors_Situations_embedding/embedding_weights/part_0/Adam_1/read/_485, dnn/input_from_feature_columns/input_layer/Detector_embedding/embedding_weights/part_0/read/_487, dnn/dnn/input_from_feature_columns/input_layer/Detector_embedding/embedding_weights/part_0/Adam/read/_489, dnn/dnn/input_from_feature_columns/input_layer/Detector_embedding/embedding_weights/part_0/Adam_1/read/_491, dnn/input_from_feature_columns/input_layer/Flight_Conditions_embedding/embedding_weights/part_0/read/_493, dnn/dnn/input_from_feature_columns/input_layer/Flight_Conditions_embedding/embedding_weights/part_0/Adam/read/_495, dnn/dnn/input_from_feature_columns/input_layer/Flight_Conditions_embedding/embedding_weights/part_0/Adam_1/read/_497, dnn/input_from_feature_columns/input_layer/Flight_Phase1_embedding/embedding_weights/part_0/read/_499, dnn/dnn/input_from_feature_columns/input_layer/Flight_Phase1_embedding/embedding_weights/part_0/Adam/read/_501, dnn/dnn/input_from_feature_columns/input_layer/Flight_Phase1_embedding/embedding_weights/part_0/Adam_1/read/_503, dnn/input_from_feature_columns/input_layer/Flight_Plan_embedding/embedding_weights/part_0/read/_505, dnn/dnn/input_from_feature_columns/input_layer/Flight_Plan_embedding/embedding_weights/part_0/Adam/read/_507, dnn/dnn/input_from_feature_columns/input_layer/Flight_Plan_embedding/embedding_weights/part_0/Adam_1/read/_509, dnn/input_from_feature_columns/input_layer/Function_embedding/embedding_weights/part_0/read/_511, dnn/dnn/input_from_feature_columns/input_layer/Function_embedding/embedding_weights/part_0/Adam/read/_513, dnn/dnn/input_from_feature_columns/input_layer/Function_embedding/embedding_weights/part_0/Adam_1/read/_515, dnn/input_from_feature_columns/input_layer/Human_Factors_embedding/embedding_weights/part_0/read/_517, dnn/dnn/input_from_feature_columns/input_layer/Human_Factors_embedding/embedding_weights/part_0/Adam/read/_519, dnn/dnn/input_from_feature_columns/input_layer/Human_Factors_embedding/embedding_weights/part_0/Adam_1/read/_521, dnn/input_from_feature_columns/input_layer/Light_embedding/embedding_weights/part_0/read/_523, dnn/dnn/input_from_feature_columns/input_layer/Light_embedding/embedding_weights/part_0/Adam/read/_525, dnn/dnn/input_from_feature_columns/input_layer/Light_embedding/embedding_weights/part_0/Adam_1/read/_527, dnn/input_from_feature_columns/input_layer/Locale_Reference_embedding/embedding_weights/part_0/read/_529, dnn/dnn/input_from_feature_columns/input_layer/Locale_Reference_embedding/embedding_weights/part_0/Adam/read/_531, dnn/dnn/input_from_feature_columns/input_layer/Locale_Reference_embedding/embedding_weights/part_0/Adam_1/read/_533, dnn/input_from_feature_columns/input_layer/Location_In_Aircraft_embedding/embedding_weights/part_0/read/_535, dnn/dnn/input_from_feature_columns/input_layer/Location_In_Aircraft_embedding/embedding_weights/part_0/Adam/read/_537, dnn/dnn/input_from_feature_columns/input_layer/Location_In_Aircraft_embedding/embedding_weights/part_0/Adam_1/read/_539, dnn/input_from_feature_columns/input_layer/Location_Of_Person_embedding/embedding_weights/part_0/read/_541, dnn/dnn/input_from_feature_columns/input_layer/Location_Of_Person_embedding/embedding_weights/part_0/Adam/read/_543, dnn/dnn/input_from_feature_columns/input_layer/Location_Of_Person_embedding/embedding_weights/part_0/Adam_1/read/_545, dnn/input_from_feature_columns/input_layer/Make_Model_Name_embedding/embedding_weights/part_0/read/_547, dnn/dnn/input_from_feature_columns/input_layer/Make_Model_Name_embedding/embedding_weights/part_0/Adam/read/_549, dnn/dnn/input_from_feature_columns/input_layer/Make_Model_Name_embedding/embedding_weights/part_0/Adam_1/read/_551, dnn/input_from_feature_columns/input_layer/Manufacturer_embedding/embedding_weights/part_0/read/_553, dnn/dnn/input_from_feature_columns/input_layer/Manufacturer_embedding/embedding_weights/part_0/Adam/read/_555, dnn/dnn/input_from_feature_columns/input_layer/Manufacturer_embedding/embedding_weights/part_0/Adam_1/read/_557, dnn/input_from_feature_columns/input_layer/Mission_embedding/embedding_weights/part_0/read/_559, dnn/dnn/input_from_feature_columns/input_layer/Mission_embedding/embedding_weights/part_0/Adam/read/_561, dnn/dnn/input_from_feature_columns/input_layer/Mission_embedding/embedding_weights/part_0/Adam_1/read/_563, dnn/input_from_feature_columns/input_layer/Primary_Problem_embedding/embedding_weights/part_0/read/_565, dnn/dnn/input_from_feature_columns/input_layer/Primary_Problem_embedding/embedding_weights/part_0/Adam/read/_567, dnn/dnn/input_from_feature_columns/input_layer/Primary_Problem_embedding/embedding_weights/part_0/Adam_1/read/_569, dnn/input_from_feature_columns/input_layer/Qualification_embedding/embedding_weights/part_0/read/_571, dnn/dnn/input_from_feature_columns/input_layer/Qualification_embedding/embedding_weights/part_0/Adam/read/_573, dnn/dnn/input_from_feature_columns/input_layer/Qualification_embedding/embedding_weights/part_0/Adam_1/read/_575, dnn/input_from_feature_columns/input_layer/Reporter_Organization_embedding/embedding_weights/part_0/read/_577, dnn/dnn/input_from_feature_columns/input_layer/Reporter_Organization_embedding/embedding_weights/part_0/Adam/read/_579, dnn/dnn/input_from_feature_columns/input_layer/Reporter_Organization_embedding/embedding_weights/part_0/Adam_1/read/_581, dnn/input_from_feature_columns/input_layer/Route_In_Use_embedding/embedding_weights/part_0/read/_583, dnn/dnn/input_from_feature_columns/input_layer/Route_In_Use_embedding/embedding_weights/part_0/Adam/read/_585, dnn/dnn/input_from_feature_columns/input_layer/Route_In_Use_embedding/embedding_weights/part_0/Adam_1/read/_587, dnn/input_from_feature_columns/input_layer/State_Reference_embedding/embedding_weights/part_0/read/_589, dnn/dnn/input_from_feature_columns/input_layer/State_Reference_embedding/embedding_weights/part_0/Adam/read/_591, dnn/dnn/input_from_feature_columns/input_layer/State_Reference_embedding/embedding_weights/part_0/Adam_1/read/_593, dnn/input_from_feature_columns/input_layer/Weather_Elements_Visibility_embedding/embedding_weights/part_0/read/_595, dnn/dnn/input_from_feature_columns/input_layer/Weather_Elements_Visibility_embedding/embedding_weights/part_0/Adam/read/_597, dnn/dnn/input_from_feature_columns/input_layer/Weather_Elements_Visibility_embedding/embedding_weights/part_0/Adam_1/read/_599, dnn/input_from_feature_columns/input_layer/Were_Passengers_Involved_In_Event_embedding/embedding_weights/part_0/read/_601, dnn/dnn/input_from_feature_columns/input_layer/Were_Passengers_Involved_In_Event_embedding/embedding_weights/part_0/Adam/read/_603, dnn/dnn/input_from_feature_columns/input_layer/Were_Passengers_Involved_In_Event_embedding/embedding_weights/part_0/Adam_1/read/_605, dnn/input_from_feature_columns/input_layer/When_Detected_embedding/embedding_weights/part_0/read/_607, dnn/dnn/input_from_feature_columns/input_layer/When_Detected_embedding/embedding_weights/part_0/Adam/read/_609, dnn/dnn/input_from_feature_columns/input_layer/When_Detected_embedding/embedding_weights/part_0/Adam_1/read/_611, dnn/input_from_feature_columns/input_layer/Work_Environment_Factor_embedding/embedding_weights/part_0/read/_613, dnn/dnn/input_from_feature_columns/input_layer/Work_Environment_Factor_embedding/embedding_weights/part_0/Adam/read/_615, dnn/dnn/input_from_feature_columns/input_layer/Work_Environment_Factor_embedding/embedding_weights/part_0/Adam_1/read/_617, dnn/logits/bias/part_0/read/_619, dnn/dnn/logits/bias/part_0/Adam/read/_621, dnn/dnn/logits/bias/part_0/Adam_1/read/_623, dnn/logits/kernel/part_0/read/_625, dnn/dnn/logits/kernel/part_0/Adam/read/_627, dnn/dnn/logits/kernel/part_0/Adam_1/read/_629, global_step/_631)]]
+Hint: If you want to see a list of allocated tensors when OOM happens, add report_tensor_allocations_upon_oom to RunOptions for current allocation info.
+
+
+Caused by op u'save/SaveV2', defined at:
+  File "hybrid_model_gpu.py", line 525, in <module>
+    model.train(input_fn = input_func, steps = 4000)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/estimator/estimator.py", line 376, in train
+    loss = self._train_model(input_fn, hooks, saving_listeners)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/estimator/estimator.py", line 1145, in _train_model
+    return self._train_model_default(input_fn, hooks, saving_listeners)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/estimator/estimator.py", line 1173, in _train_model_default
+    saving_listeners)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/estimator/estimator.py", line 1448, in _train_with_estimator_spec
+    log_step_count_steps=self._config.log_step_count_steps) as mon_sess:
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/training/monitored_session.py", line 421, in MonitoredTrainingSession
+    stop_grace_period_secs=stop_grace_period_secs)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/training/monitored_session.py", line 832, in __init__
+    stop_grace_period_secs=stop_grace_period_secs)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/training/monitored_session.py", line 555, in __init__
+    self._sess = _RecoverableSession(self._coordinated_creator)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/training/monitored_session.py", line 1018, in __init__
+    _WrappedSession.__init__(self, self._create_session())
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/training/monitored_session.py", line 1023, in _create_session
+    return self._sess_creator.create_session()
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/training/monitored_session.py", line 712, in create_session
+    self.tf_sess = self._session_creator.create_session()
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/training/monitored_session.py", line 474, in create_session
+    self._scaffold.finalize()
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/training/monitored_session.py", line 214, in finalize
+    self._saver.build()
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/training/saver.py", line 1293, in build
+    self._build(self._filename, build_save=True, build_restore=True)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/training/saver.py", line 1330, in _build
+    build_save=build_save, build_restore=build_restore)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/training/saver.py", line 769, in _build_internal
+    save_tensor = self._AddShardedSaveOps(filename_tensor, per_device)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/training/saver.py", line 360, in _AddShardedSaveOps
+    return self._AddShardedSaveOpsForV2(filename_tensor, per_device)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/training/saver.py", line 334, in _AddShardedSaveOpsForV2
+    sharded_saves.append(self._AddSaveOps(sharded_filename, saveables))
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/training/saver.py", line 275, in _AddSaveOps
+    save = self.save_op(filename_tensor, saveables)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/training/saver.py", line 193, in save_op
+    tensors)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/ops/gen_io_ops.py", line 1687, in save_v2
+    shape_and_slices=shape_and_slices, tensors=tensors, name=name)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/framework/op_def_library.py", line 787, in _apply_op_helper
+    op_def=op_def)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/util/deprecation.py", line 454, in new_func
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/framework/ops.py", line 3155, in create_op
+    op_def=op_def)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/framework/ops.py", line 1717, in __init__
+    self._traceback = tf_stack.extract_stack()
+
+ResourceExhaustedError (see above for traceback): /tmp/tmphh8ijl/model.ckpt-4000_temp_2cc429eff9dc4cde9bcd9b25b20209ca/part-00000-of-00001.data-00000-of-00001.tempstate9534355732113383165; No space left on device
+	 [[Node: save/SaveV2 = SaveV2[dtypes=[DT_FLOAT, DT_FLOAT, DT_FLOAT, DT_FLOAT, DT_FLOAT, ..., DT_FLOAT, DT_FLOAT, DT_FLOAT, DT_FLOAT, DT_INT64], _device="/job:localhost/replica:0/task:0/device:CPU:0"](save/ShardedFilename, save/SaveV2/tensor_names, save/SaveV2/shape_and_slices, dnn/head/beta1_power/_423, dnn/head/beta2_power/_425, dnn/hiddenlayer_0/bias/part_0/read/_427, dnn/dnn/hiddenlayer_0/bias/part_0/Adam/read/_429, dnn/dnn/hiddenlayer_0/bias/part_0/Adam_1/read/_431, dnn/hiddenlayer_0/kernel/part_0/read/_433, dnn/dnn/hiddenlayer_0/kernel/part_0/Adam/read/_435, dnn/dnn/hiddenlayer_0/kernel/part_0/Adam_1/read/_437, dnn/hiddenlayer_1/bias/part_0/read/_439, dnn/dnn/hiddenlayer_1/bias/part_0/Adam/read/_441, dnn/dnn/hiddenlayer_1/bias/part_0/Adam_1/read/_443, dnn/hiddenlayer_1/kernel/part_0/read/_445, dnn/dnn/hiddenlayer_1/kernel/part_0/Adam/read/_447, dnn/dnn/hiddenlayer_1/kernel/part_0/Adam_1/read/_449, dnn/input_from_feature_columns/input_layer/ATC_Advisory_embedding/embedding_weights/part_0/read/_451, dnn/dnn/input_from_feature_columns/input_layer/ATC_Advisory_embedding/embedding_weights/part_0/Adam/read/_453, dnn/dnn/input_from_feature_columns/input_layer/ATC_Advisory_embedding/embedding_weights/part_0/Adam_1/read/_455, dnn/input_from_feature_columns/input_layer/Aircraft_Component_embedding/embedding_weights/part_0/read/_457, dnn/dnn/input_from_feature_columns/input_layer/Aircraft_Component_embedding/embedding_weights/part_0/Adam/read/_459, dnn/dnn/input_from_feature_columns/input_layer/Aircraft_Component_embedding/embedding_weights/part_0/Adam_1/read/_461, dnn/input_from_feature_columns/input_layer/Aircraft_Operator_embedding/embedding_weights/part_0/read/_463, dnn/dnn/input_from_feature_columns/input_layer/Aircraft_Operator_embedding/embedding_weights/part_0/Adam/read/_465, dnn/dnn/input_from_feature_columns/input_layer/Aircraft_Operator_embedding/embedding_weights/part_0/Adam_1/read/_467, dnn/input_from_feature_columns/input_layer/Airspace_embedding/embedding_weights/part_0/read/_469, dnn/dnn/input_from_feature_columns/input_layer/Airspace_embedding/embedding_weights/part_0/Adam/read/_471, dnn/dnn/input_from_feature_columns/input_layer/Airspace_embedding/embedding_weights/part_0/Adam_1/read/_473, dnn/input_from_feature_columns/input_layer/Anomaly_embedding/embedding_weights/part_0/read/_475, dnn/dnn/input_from_feature_columns/input_layer/Anomaly_embedding/embedding_weights/part_0/Adam/read/_477, dnn/dnn/input_from_feature_columns/input_layer/Anomaly_embedding/embedding_weights/part_0/Adam_1/read/_479, dnn/input_from_feature_columns/input_layer/Contributing_Factors_Situations_embedding/embedding_weights/part_0/read/_481, dnn/dnn/input_from_feature_columns/input_layer/Contributing_Factors_Situations_embedding/embedding_weights/part_0/Adam/read/_483, dnn/dnn/input_from_feature_columns/input_layer/Contributing_Factors_Situations_embedding/embedding_weights/part_0/Adam_1/read/_485, dnn/input_from_feature_columns/input_layer/Detector_embedding/embedding_weights/part_0/read/_487, dnn/dnn/input_from_feature_columns/input_layer/Detector_embedding/embedding_weights/part_0/Adam/read/_489, dnn/dnn/input_from_feature_columns/input_layer/Detector_embedding/embedding_weights/part_0/Adam_1/read/_491, dnn/input_from_feature_columns/input_layer/Flight_Conditions_embedding/embedding_weights/part_0/read/_493, dnn/dnn/input_from_feature_columns/input_layer/Flight_Conditions_embedding/embedding_weights/part_0/Adam/read/_495, dnn/dnn/input_from_feature_columns/input_layer/Flight_Conditions_embedding/embedding_weights/part_0/Adam_1/read/_497, dnn/input_from_feature_columns/input_layer/Flight_Phase1_embedding/embedding_weights/part_0/read/_499, dnn/dnn/input_from_feature_columns/input_layer/Flight_Phase1_embedding/embedding_weights/part_0/Adam/read/_501, dnn/dnn/input_from_feature_columns/input_layer/Flight_Phase1_embedding/embedding_weights/part_0/Adam_1/read/_503, dnn/input_from_feature_columns/input_layer/Flight_Plan_embedding/embedding_weights/part_0/read/_505, dnn/dnn/input_from_feature_columns/input_layer/Flight_Plan_embedding/embedding_weights/part_0/Adam/read/_507, dnn/dnn/input_from_feature_columns/input_layer/Flight_Plan_embedding/embedding_weights/part_0/Adam_1/read/_509, dnn/input_from_feature_columns/input_layer/Function_embedding/embedding_weights/part_0/read/_511, dnn/dnn/input_from_feature_columns/input_layer/Function_embedding/embedding_weights/part_0/Adam/read/_513, dnn/dnn/input_from_feature_columns/input_layer/Function_embedding/embedding_weights/part_0/Adam_1/read/_515, dnn/input_from_feature_columns/input_layer/Human_Factors_embedding/embedding_weights/part_0/read/_517, dnn/dnn/input_from_feature_columns/input_layer/Human_Factors_embedding/embedding_weights/part_0/Adam/read/_519, dnn/dnn/input_from_feature_columns/input_layer/Human_Factors_embedding/embedding_weights/part_0/Adam_1/read/_521, dnn/input_from_feature_columns/input_layer/Light_embedding/embedding_weights/part_0/read/_523, dnn/dnn/input_from_feature_columns/input_layer/Light_embedding/embedding_weights/part_0/Adam/read/_525, dnn/dnn/input_from_feature_columns/input_layer/Light_embedding/embedding_weights/part_0/Adam_1/read/_527, dnn/input_from_feature_columns/input_layer/Locale_Reference_embedding/embedding_weights/part_0/read/_529, dnn/dnn/input_from_feature_columns/input_layer/Locale_Reference_embedding/embedding_weights/part_0/Adam/read/_531, dnn/dnn/input_from_feature_columns/input_layer/Locale_Reference_embedding/embedding_weights/part_0/Adam_1/read/_533, dnn/input_from_feature_columns/input_layer/Location_In_Aircraft_embedding/embedding_weights/part_0/read/_535, dnn/dnn/input_from_feature_columns/input_layer/Location_In_Aircraft_embedding/embedding_weights/part_0/Adam/read/_537, dnn/dnn/input_from_feature_columns/input_layer/Location_In_Aircraft_embedding/embedding_weights/part_0/Adam_1/read/_539, dnn/input_from_feature_columns/input_layer/Location_Of_Person_embedding/embedding_weights/part_0/read/_541, dnn/dnn/input_from_feature_columns/input_layer/Location_Of_Person_embedding/embedding_weights/part_0/Adam/read/_543, dnn/dnn/input_from_feature_columns/input_layer/Location_Of_Person_embedding/embedding_weights/part_0/Adam_1/read/_545, dnn/input_from_feature_columns/input_layer/Make_Model_Name_embedding/embedding_weights/part_0/read/_547, dnn/dnn/input_from_feature_columns/input_layer/Make_Model_Name_embedding/embedding_weights/part_0/Adam/read/_549, dnn/dnn/input_from_feature_columns/input_layer/Make_Model_Name_embedding/embedding_weights/part_0/Adam_1/read/_551, dnn/input_from_feature_columns/input_layer/Manufacturer_embedding/embedding_weights/part_0/read/_553, dnn/dnn/input_from_feature_columns/input_layer/Manufacturer_embedding/embedding_weights/part_0/Adam/read/_555, dnn/dnn/input_from_feature_columns/input_layer/Manufacturer_embedding/embedding_weights/part_0/Adam_1/read/_557, dnn/input_from_feature_columns/input_layer/Mission_embedding/embedding_weights/part_0/read/_559, dnn/dnn/input_from_feature_columns/input_layer/Mission_embedding/embedding_weights/part_0/Adam/read/_561, dnn/dnn/input_from_feature_columns/input_layer/Mission_embedding/embedding_weights/part_0/Adam_1/read/_563, dnn/input_from_feature_columns/input_layer/Primary_Problem_embedding/embedding_weights/part_0/read/_565, dnn/dnn/input_from_feature_columns/input_layer/Primary_Problem_embedding/embedding_weights/part_0/Adam/read/_567, dnn/dnn/input_from_feature_columns/input_layer/Primary_Problem_embedding/embedding_weights/part_0/Adam_1/read/_569, dnn/input_from_feature_columns/input_layer/Qualification_embedding/embedding_weights/part_0/read/_571, dnn/dnn/input_from_feature_columns/input_layer/Qualification_embedding/embedding_weights/part_0/Adam/read/_573, dnn/dnn/input_from_feature_columns/input_layer/Qualification_embedding/embedding_weights/part_0/Adam_1/read/_575, dnn/input_from_feature_columns/input_layer/Reporter_Organization_embedding/embedding_weights/part_0/read/_577, dnn/dnn/input_from_feature_columns/input_layer/Reporter_Organization_embedding/embedding_weights/part_0/Adam/read/_579, dnn/dnn/input_from_feature_columns/input_layer/Reporter_Organization_embedding/embedding_weights/part_0/Adam_1/read/_581, dnn/input_from_feature_columns/input_layer/Route_In_Use_embedding/embedding_weights/part_0/read/_583, dnn/dnn/input_from_feature_columns/input_layer/Route_In_Use_embedding/embedding_weights/part_0/Adam/read/_585, dnn/dnn/input_from_feature_columns/input_layer/Route_In_Use_embedding/embedding_weights/part_0/Adam_1/read/_587, dnn/input_from_feature_columns/input_layer/State_Reference_embedding/embedding_weights/part_0/read/_589, dnn/dnn/input_from_feature_columns/input_layer/State_Reference_embedding/embedding_weights/part_0/Adam/read/_591, dnn/dnn/input_from_feature_columns/input_layer/State_Reference_embedding/embedding_weights/part_0/Adam_1/read/_593, dnn/input_from_feature_columns/input_layer/Weather_Elements_Visibility_embedding/embedding_weights/part_0/read/_595, dnn/dnn/input_from_feature_columns/input_layer/Weather_Elements_Visibility_embedding/embedding_weights/part_0/Adam/read/_597, dnn/dnn/input_from_feature_columns/input_layer/Weather_Elements_Visibility_embedding/embedding_weights/part_0/Adam_1/read/_599, dnn/input_from_feature_columns/input_layer/Were_Passengers_Involved_In_Event_embedding/embedding_weights/part_0/read/_601, dnn/dnn/input_from_feature_columns/input_layer/Were_Passengers_Involved_In_Event_embedding/embedding_weights/part_0/Adam/read/_603, dnn/dnn/input_from_feature_columns/input_layer/Were_Passengers_Involved_In_Event_embedding/embedding_weights/part_0/Adam_1/read/_605, dnn/input_from_feature_columns/input_layer/When_Detected_embedding/embedding_weights/part_0/read/_607, dnn/dnn/input_from_feature_columns/input_layer/When_Detected_embedding/embedding_weights/part_0/Adam/read/_609, dnn/dnn/input_from_feature_columns/input_layer/When_Detected_embedding/embedding_weights/part_0/Adam_1/read/_611, dnn/input_from_feature_columns/input_layer/Work_Environment_Factor_embedding/embedding_weights/part_0/read/_613, dnn/dnn/input_from_feature_columns/input_layer/Work_Environment_Factor_embedding/embedding_weights/part_0/Adam/read/_615, dnn/dnn/input_from_feature_columns/input_layer/Work_Environment_Factor_embedding/embedding_weights/part_0/Adam_1/read/_617, dnn/logits/bias/part_0/read/_619, dnn/dnn/logits/bias/part_0/Adam/read/_621, dnn/dnn/logits/bias/part_0/Adam_1/read/_623, dnn/logits/kernel/part_0/read/_625, dnn/dnn/logits/kernel/part_0/Adam/read/_627, dnn/dnn/logits/kernel/part_0/Adam_1/read/_629, global_step/_631)]]
+Hint: If you want to see a list of allocated tensors when OOM happens, add report_tensor_allocations_upon_oom to RunOptions for current allocation info.
+
+
+slurmstepd: error: Exceeded step memory limit at some point.
