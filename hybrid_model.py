@@ -307,6 +307,7 @@ for k, (data_index, test_index) in enumerate(cv.split(X_org, Y_org)):
     from sklearn.naive_bayes import MultinomialNB
     from sklearn.pipeline import Pipeline
     from sklearn.metrics import confusion_matrix
+    from sklearn.metrics import classification_report
 
     text_clf = Pipeline([('vect', CountVectorizer(stop_words = 'english')),
                           ('tfidf', TfidfTransformer()),
@@ -339,7 +340,7 @@ for k, (data_index, test_index) in enumerate(cv.split(X_org, Y_org)):
     pred_label_SVM = gs_clf.predict(X_validation['Synopsis'])
 
     #from sklearn.metrics import classification_report
-    #target_names = [str(i) for i in range(1, 6)]
+    target_names = [str(i) for i in range(1, 6)]
     #print(classification_report(Y_validation, pred_label_SVM, target_names=target_names))
     
     print ('Accuracy: ', np.sum(np.equal(Y_validation, pred_label_SVM).astype(int))/len(Y_validation))
