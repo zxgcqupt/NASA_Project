@@ -1,0 +1,315 @@
+Docker image path: index.docker.io/tensorflow/tensorflow:latest-gpu
+Cache folder set to /gpfs22/home/zhanx15/.singularity/docker
+Creating container runtime...
+Exploding layer: sha256:8ee29e426c26c79e7ba03ccc8bbc7fe99db00ffcbccb679d9c643b5546d8dc8a.tar.gz
+Exploding layer: sha256:6e83b260b73b908ebabde46b72fc5790bf4f029b53acbbfe35da8ff8fba795ac.tar.gz
+Exploding layer: sha256:e26b65fd1143ee4f9b7b6b958aeafdb996172d10b723f0bba24335a8f7ae692c.tar.gz
+Exploding layer: sha256:40dca07f8222e24aab97f026444d66a7604e4ae2b708cf079ff67a90c42efa60.tar.gz
+Exploding layer: sha256:b420ae9e10b3f6a74f527914bc3c766b128435a62eca1061f41167205d5b0230.tar.gz
+Exploding layer: sha256:a579c13275563497b4e32d82e404e16e3ebae98f7aff00027365886454864a93.tar.gz
+Exploding layer: sha256:b440bb8df79eb13f624482786af4221b6ad59b6953a821c07f76755b29a80096.tar.gz
+Exploding layer: sha256:de3b2ccf9562950b31e40274d491c76fe4061216a9101b893bd88a63a85934f9.tar.gz
+Exploding layer: sha256:43fd6e1283ef1fbd765b3e6e4eaace97120260a92c15faf99d6f2b3d83d92516.tar.gz
+Exploding layer: sha256:c763653fa393b49b90bb402e831eeb3d1c6b1870f0fe158420c1c872638837a0.tar.gz
+Exploding layer: sha256:8e61eab710290fb186cca15590e594f0a46363efc5103583d39f0da60b33606a.tar.gz
+Exploding layer: sha256:3f7fdaaf37c205b73ed3751af504858115245cfc5c76ac5af0271e39e7e8744a.tar.gz
+Exploding layer: sha256:ff90a77a38f53f513eab49bdcedbe2d7b16931f8634f279918fafe01311e84dc.tar.gz
+Exploding layer: sha256:651a845d4ce242a5c3014b8426dfc57d1ff2a503ee645f3e2e862fb9fc4fb941.tar.gz
+Exploding layer: sha256:2b86d4d0afcf7c525f986dd5ae81317229771efa5600c98652025298894b9bba.tar.gz
+Exploding layer: sha256:c13d0d6ad71d61543cdc05828e4a63874ac9d5e44ada86e009039ce1225f3d88.tar.gz
+Exploding layer: sha256:ab617d1053f5fa6975043fc6740e42ae683bc8f430d65274bd347249f5771f69.tar.gz
+[33mWARNING: Non existent bind point (directory) in container: '/scratch'
+[0m[33mWARNING: Non existent bind point (directory) in container: '/data'
+[0m[33mWARNING: Non existent bind point (directory) in container: '/dors'
+[0m[33mWARNING: Non existent bind point (directory) in container: '/gpfs22'
+[0m[33mWARNING: Non existent bind point (directory) in container: '/gpfs23'
+[0m[33mWARNING: Non existent 'bind path' source: '/legodata'
+[0m[33mWARNING: Skipping user bind, non existent bind point (file) in container: '/usr/bin/nvidia-smi'
+[0m(array([1, 2, 3, 4, 5]), array([16508,  8636, 18841,  8261, 12327]))
+After the upsampling, the number of each item is: 
+
+[1 2 3 4 5]
+[16508 18841 18841 18841 18841]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+('The unique data types across all the items are:', set([<type 'numpy.float64'>, <type 'list'>, <type 'float'>, <type 'str'>]))
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+('current fold: ', 1)
+('current fold: ', 2)
+('current fold: ', 3)
+('current fold: ', 4)
+('current fold: ', 5)
+('current fold: ', 6)
+('current fold: ', 7)
+('current fold: ', 8)
+hybrid_model_gpu.py:258: RuntimeWarning: invalid value encountered in double_scalars
+  confusion_report[i, 2] = 2 * (confusion_report[i, 0] * confusion_report[i, 1])/(confusion_report[i, 0] + confusion_report[i, 1])
+WARNING:tensorflow:Using temporary folder as model directory: /tmp/tmpUkhmX3
+WARNING:tensorflow:Using temporary folder as model directory: /tmp/tmp6ZfSG1
+WARNING:tensorflow:Using temporary folder as model directory: /tmp/tmpbD4BYm
+WARNING:tensorflow:Using temporary folder as model directory: /tmp/tmp_GCJT_
+WARNING:tensorflow:Using temporary folder as model directory: /tmp/tmppklyeg
+WARNING:tensorflow:Using temporary folder as model directory: /tmp/tmpUpGVUi
+WARNING:tensorflow:Using temporary folder as model directory: /tmp/tmpeb2rhc
+WARNING:tensorflow:Using temporary folder as model directory: /tmp/tmphnQ0RZ
+WARNING:tensorflow:Using temporary folder as model directory: /tmp/tmppOE_93
+WARNING:tensorflow:Using temporary folder as model directory: /tmp/tmpBLfrF_
+('Accuracy: ', 0)
+('The best set of parameters is \n', {'vect__ngram_range': (1, 2), 'clf__max_iter': 80, 'clf__loss': 'modified_huber', 'tfidf__use_idf': True, 'clf__penalty': 'elasticnet', 'clf__alpha': 1e-05})
+
+
+
+Train the 1 model, please keep waiting !!!
+
+
+
+Train the 2 model, please keep waiting !!!
+
+
+
+Train the 3 model, please keep waiting !!!
+
+
+
+Train the 4 model, please keep waiting !!!
+
+
+
+Train the 5 model, please keep waiting !!!
+
+
+
+Train the 6 model, please keep waiting !!!
+
+
+
+Train the 7 model, please keep waiting !!!
+
+
+
+Train the 8 model, please keep waiting !!!
+
+
+
+Train the 9 model, please keep waiting !!!
+
+
+
+Train the 10 model, please keep waiting !!!
+('common count', {1: 370.0, 2: 890.0, 3: 344.0, 4: 879.0, 5: 825.0})
+('dict_count', {1: 454.0, 2: 963.0, 3: 459.0, 4: 937.0, 5: 873.0})
+('accuracy', array([0.81497797, 0.92419522, 0.74945534, 0.93810032, 0.94501718]))
+('proportion of disagreed records', array([0.32466747, 0.06711004, 0.43591294, 0.07315599, 0.09915357]))
+Classification report on Hybrid model:
+             precision    recall  f1-score   support
+
+          1       0.70      0.62      0.66      1651
+          2       0.92      0.91      0.91      1885
+          3       0.62      0.71      0.66      1884
+          4       0.92      0.89      0.90      1884
+          5       0.89      0.88      0.89      1884
+
+avg / total       0.81      0.81      0.81      9188
+
+Classification report on SVM:
+             precision    recall  f1-score   support
+
+          1       0.71      0.59      0.65      1651
+          2       0.85      0.94      0.89      1885
+          3       0.66      0.56      0.61      1884
+          4       0.79      0.91      0.84      1884
+          5       0.87      0.91      0.89      1884
+
+avg / total       0.78      0.79      0.78      9188
+
+Classification report on deep learning:
+             precision    recall  f1-score   support
+
+          1       0.62      0.56      0.59      1651
+          2       0.82      0.91      0.86      1885
+          3       0.58      0.47      0.52      1884
+          4       0.82      0.90      0.86      1884
+          5       0.80      0.86      0.83      1884
+
+avg / total       0.73      0.74      0.73      9188
+
+('current fold: ', 9)
+WARNING:tensorflow:Using temporary folder as model directory: /tmp/tmp97rWmz
+WARNING:tensorflow:Using temporary folder as model directory: /tmp/tmpAZEWqa
+WARNING:tensorflow:Using temporary folder as model directory: /tmp/tmpf5EsxK
+WARNING:tensorflow:Using temporary folder as model directory: /tmp/tmpLhLYkG
+WARNING:tensorflow:Using temporary folder as model directory: /tmp/tmpA0NLjL
+WARNING:tensorflow:Using temporary folder as model directory: /tmp/tmpkNUKDV
+WARNING:tensorflow:Using temporary folder as model directory: /tmp/tmpvqSoT8
+WARNING:tensorflow:Using temporary folder as model directory: /tmp/tmpk2MWQu
+WARNING:tensorflow:Using temporary folder as model directory: /tmp/tmpg2_cFt
+WARNING:tensorflow:Using temporary folder as model directory: /tmp/tmpjiTZvu
+('Accuracy: ', 0)
+('The best set of parameters is \n', {'vect__ngram_range': (1, 2), 'clf__max_iter': 80, 'clf__loss': 'modified_huber', 'tfidf__use_idf': True, 'clf__penalty': 'elasticnet', 'clf__alpha': 1e-05})
+
+
+
+Train the 1 model, please keep waiting !!!
+
+
+
+Train the 2 model, please keep waiting !!!
+
+
+
+Train the 3 model, please keep waiting !!!
+
+
+
+Train the 4 model, please keep waiting !!!
+
+
+
+Train the 5 model, please keep waiting !!!
+
+
+
+Train the 6 model, please keep waiting !!!
+
+
+
+Train the 7 model, please keep waiting !!!
+
+
+
+Train the 8 model, please keep waiting !!!
+
+
+
+Train the 9 model, please keep waiting !!!
+
+
+
+Train the 10 model, please keep waiting !!!
+('common count', {1: 374.0, 2: 936.0, 3: 313.0, 4: 890.0, 5: 819.0})
+('dict_count', {1: 463.0, 2: 986.0, 3: 440.0, 4: 940.0, 5: 878.0})
+('accuracy', array([0.80777538, 0.94929006, 0.71136364, 0.94680851, 0.93280182]))
+('proportion of disagreed records', array([0.32208589, 0.06503067, 0.41840491, 0.0791411 , 0.11533742]))
+Classification report on Hybrid model:
+             precision    recall  f1-score   support
+
+          1       0.69      0.63      0.66      1651
+          2       0.93      0.91      0.92      1885
+          3       0.62      0.69      0.65      1884
+          4       0.90      0.88      0.89      1884
+          5       0.88      0.91      0.89      1884
+
+avg / total       0.81      0.81      0.81      9188
+
+Classification report on SVM:
+             precision    recall  f1-score   support
+
+          1       0.72      0.57      0.64      1651
+          2       0.87      0.93      0.90      1885
+          3       0.66      0.56      0.61      1884
+          4       0.77      0.91      0.83      1884
+          5       0.87      0.92      0.89      1884
+
+avg / total       0.78      0.79      0.78      9188
+
+Classification report on deep learning:
+             precision    recall  f1-score   support
+
+          1       0.63      0.58      0.60      1651
+          2       0.82      0.91      0.86      1885
+          3       0.56      0.46      0.51      1884
+          4       0.82      0.89      0.85      1884
+          5       0.81      0.86      0.83      1884
+
+avg / total       0.73      0.74      0.73      9188
+
+('current fold: ', 10)
+WARNING:tensorflow:Using temporary folder as model directory: /tmp/tmptTrWTB
+WARNING:tensorflow:Using temporary folder as model directory: /tmp/tmpweNDNd
+WARNING:tensorflow:Using temporary folder as model directory: /tmp/tmpoLlMcu
+WARNING:tensorflow:Using temporary folder as model directory: /tmp/tmpPDVXUy
+WARNING:tensorflow:Using temporary folder as model directory: /tmp/tmpuoJsOR
+WARNING:tensorflow:Using temporary folder as model directory: /tmp/tmpn0q7P8
+WARNING:tensorflow:Using temporary folder as model directory: /tmp/tmpttpzoD
+WARNING:tensorflow:Using temporary folder as model directory: /tmp/tmp4E6QMr
+WARNING:tensorflow:Using temporary folder as model directory: /tmp/tmpwi3R3B
+WARNING:tensorflow:Using temporary folder as model directory: /tmp/tmpmsZ9by
+('Accuracy: ', 0)
+('The best set of parameters is \n', {'vect__ngram_range': (1, 2), 'clf__max_iter': 80, 'clf__loss': 'modified_huber', 'tfidf__use_idf': True, 'clf__penalty': 'elasticnet', 'clf__alpha': 1e-05})
+
+
+
+Train the 1 model, please keep waiting !!!
+
+
+
+Train the 2 model, please keep waiting !!!
+
+
+
+Train the 3 model, please keep waiting !!!
+
+
+
+Train the 4 model, please keep waiting !!!
+
+
+
+Train the 5 model, please keep waiting !!!
+
+
+
+Train the 6 model, please keep waiting !!!
+
+
+
+Train the 7 model, please keep waiting !!!
+
+
+
+Train the 8 model, please keep waiting !!!
+
+
+
+Train the 9 model, please keep waiting !!!
+
+
+
+Train the 10 model, please keep waiting !!!
+('common count', {1: 341.0, 2: 852.0, 3: 342.0, 4: 935.0, 5: 797.0})
+('dict_count', {1: 430.0, 2: 919.0, 3: 442.0, 4: 992.0, 5: 838.0})
+('accuracy', array([0.79302326, 0.92709467, 0.77375566, 0.94254032, 0.95107399]))
+('proportion of disagreed records', array([0.30678466, 0.0619469 , 0.43067847, 0.09380531, 0.10678466]))
+Classification report on Hybrid model:
+             precision    recall  f1-score   support
+
+          1       0.72      0.59      0.65      1651
+          2       0.92      0.90      0.91      1885
+          3       0.61      0.72      0.66      1884
+          4       0.89      0.89      0.89      1884
+          5       0.90      0.91      0.90      1884
+
+avg / total       0.81      0.81      0.81      9188
+
+Classification report on SVM:
+             precision    recall  f1-score   support
+
+          1       0.71      0.59      0.64      1651
+          2       0.85      0.93      0.89      1885
+          3       0.68      0.57      0.62      1884
+          4       0.78      0.92      0.84      1884
+          5       0.88      0.92      0.90      1884
+
+avg / total       0.78      0.79      0.78      9188
+
+Classification report on deep learning:
+             precision    recall  f1-score   support
+
+          1       0.63      0.59      0.61      1651
+          2       0.81      0.90      0.86      1885
+          3       0.60      0.47      0.53      1884
+          4       0.82      0.90      0.86      1884
+          5       0.81      0.87      0.84      1884
+
+avg / total       0.74      0.75      0.74      9188
+
+slurmstepd: error: Exceeded step memory limit at some point.

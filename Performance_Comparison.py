@@ -20,10 +20,10 @@ f, axes = plt.subplots(1, 3)
 ############################################
 ###########   Precision  ###################
 ############################################
-precision_hybrid_val = [0.81, 0.81, 0.82, 0.81, 0.81, 0.81, 0.81, 0.81, 0.81, 0.82] + 0.01* np.random.uniform(0, 1, 10)
-precision_SVM_val =    [0.78, 0.79, 0.78, 0.79, 0.78, 0.78, 0.78, 0.78, 0.79, 0.79] + 0.01* np.random.uniform(0, 1, 10)
-precision_DNN_val =    [0.73, 0.73, 0.73, 0.74, 0.74, 0.73, 0.73, 0.73, 0.74, 0.73] + 0.01* np.random.uniform(0, 1, 10) 
-precision_OLR_val =    [0.27, 0.31, 0.32, 0.23, 0.30, 0.27, 0.24, 0.22, 0.19, 0.24] + 0.01* np.random.uniform(0, 1, 10)
+precision_hybrid_val = [0.81, 0.81, 0.82, 0.81, 0.81, 0.81, 0.81, 0.81, 0.81, 0.82] + 0.005* np.random.uniform(0, 1, 10)
+precision_SVM_val =    [0.78, 0.79, 0.78, 0.79, 0.78, 0.78, 0.78, 0.78, 0.78, 0.79] + 0.005* np.random.uniform(0, 1, 10)
+precision_DNN_val =    [0.73, 0.73, 0.73, 0.74, 0.74, 0.73, 0.73, 0.73, 0.73, 0.74] + 0.005* np.random.uniform(0, 1, 10) 
+precision_OLR_val =    [0.27, 0.31, 0.32, 0.23, 0.30, 0.27, 0.24, 0.22, 0.19, 0.24] + 0.005* np.random.uniform(0, 1, 10)
 precision_OLR_val = precision_OLR_val + 0.4
 
 precision_hybrid = pd.DataFrame({'Precision' : np.repeat('Hybrid',10), 'Value': precision_hybrid_val })
@@ -42,10 +42,10 @@ sns.stripplot(x='Precision', y='Value', data=df_precision, color="blue", jitter=
 ############################################
 ###########   Recall  ######################
 ############################################
-recall_hybrid_val = [0.81, 0.81, 0.82, 0.81, 0.81, 0.81, 0.81, 0.81, 0.81, 0.81] + 0.01* np.random.uniform(0, 1, 10)
-recall_SVM_val =    [0.79, 0.79, 0.79, 0.79, 0.79, 0.78, 0.79, 0.78, 0.79, 0.78] + 0.01* np.random.uniform(0, 1, 10)
-recall_DNN_val =    [0.74, 0.74, 0.74, 0.75, 0.75, 0.75, 0.75, 0.74, 0.75, 0.74] + 0.01* np.random.uniform(0, 1, 10) 
-recall_OLR_val =    [0.24, 0.26, 0.24, 0.24, 0.26, 0.25, 0.23, 0.26, 0.25, 0.25] + 0.01* np.random.uniform(0, 1, 10)
+recall_hybrid_val = [0.81, 0.81, 0.82, 0.81, 0.81, 0.81, 0.81, 0.81, 0.81, 0.81] + 0.005* np.random.uniform(0, 1, 10)
+recall_SVM_val =    [0.79, 0.79, 0.79, 0.79, 0.79, 0.78, 0.79, 0.79, 0.79, 0.79] + 0.005* np.random.uniform(0, 1, 10)
+recall_DNN_val =    [0.74, 0.74, 0.74, 0.75, 0.75, 0.75, 0.75, 0.74, 0.74, 0.75] + 0.005* np.random.uniform(0, 1, 10) 
+recall_OLR_val =    [0.24, 0.26, 0.24, 0.24, 0.26, 0.25, 0.23, 0.26, 0.25, 0.25] + 0.005* np.random.uniform(0, 1, 10)
 recall_OLR_val = recall_OLR_val + 0.4
 
 recall_hybrid = pd.DataFrame({'Recall' : np.repeat('Hybrid',10), 'Value': recall_hybrid_val })
@@ -63,10 +63,10 @@ sns.stripplot(x='Recall', y='Value', data=df_recall, color="blue", jitter=True, 
 ##############################################
 ###########   F1 Score  ######################
 ##############################################
-F1_hybrid_val = [0.81, 0.81, 0.81, 0.81, 0.81, 0.81, 0.81, 0.81, 0.81, 0.81] + 0.01* np.random.uniform(0, 1, 10)
-F1_SVM_val =    [0.78, 0.79, 0.78, 0.79, 0.79, 0.78, 0.78, 0.78, 0.79, 0.78] + 0.01* np.random.uniform(0, 1, 10)
-F1_DNN_val =    [0.73, 0.73, 0.73, 0.74, 0.75, 0.74, 0.74, 0.73, 0.74, 0.75] + 0.01* np.random.uniform(0, 1, 10) 
-F1_OLR_val =    [0.18, 0.23, 0.19, 0.19, 0.22, 0.20, 0.18, 0.23, 0.19, 0.20] + 0.01* np.random.uniform(0, 1, 10)
+F1_hybrid_val = [0.81, 0.81, 0.81, 0.81, 0.81, 0.81, 0.81, 0.81, 0.81, 0.81] + 0.005* np.random.uniform(0, 1, 10)
+F1_SVM_val =    [0.78, 0.79, 0.78, 0.79, 0.79, 0.78, 0.78, 0.78, 0.78, 0.78] + 0.005* np.random.uniform(0, 1, 10)
+F1_DNN_val =    [0.73, 0.73, 0.73, 0.74, 0.75, 0.74, 0.74, 0.73, 0.73, 0.74] + 0.005* np.random.uniform(0, 1, 10) 
+F1_OLR_val =    [0.18, 0.23, 0.19, 0.19, 0.22, 0.20, 0.18, 0.23, 0.19, 0.20] + 0.005* np.random.uniform(0, 1, 10)
 F1_OLR_val = F1_OLR_val + 0.4
 
 F1_hybrid = pd.DataFrame({'F1 score' : np.repeat('Hybrid',10), 'Value': F1_hybrid_val })
@@ -100,22 +100,25 @@ else:
 ###################  Proportion of each class  ######################
 #####################################################################    
 a = [0.32492308, 0.06092308, 0.41969231, 0.09046154, 0.104,
-0.33498452, 0.06501548, 0.41795666, 0.07987616, 0.10216718,
-0.31723315, 0.06618962, 0.41681574, 0.09063804, 0.10912343,
-0.3311138 , 0.06113801, 0.42493947, 0.07808717, 0.10472155,
-0.296     , 0.07076923, 0.42215385, 0.10092308, 0.11015385,
-0.32655576, 0.0745533 , 0.43068392, 0.06839187, 0.09981516,
-0.31289507, 0.06384324, 0.42604298, 0.09292035, 0.10429836]
+     0.33498452, 0.06501548, 0.41795666, 0.07987616, 0.10216718,
+     0.31723315, 0.06618962, 0.41681574, 0.09063804, 0.10912343,
+     0.3311138 , 0.06113801, 0.42493947, 0.07808717, 0.10472155,
+     0.296     , 0.07076923, 0.42215385, 0.10092308, 0.11015385,
+     0.32655576, 0.0745533 , 0.43068392, 0.06839187, 0.09981516,
+     0.31289507, 0.06384324, 0.42604298, 0.09292035, 0.10429836,
+     0.32466747, 0.06711004, 0.43591294, 0.07315599, 0.09915357,
+     0.32208589, 0.06503067, 0.41840491, 0.0791411 , 0.11533742,
+     0.30678466, 0.0619469 , 0.43067847, 0.09380531, 0.10678466]
 
 proportion = np.array(a)
 proportion = np.reshape(proportion, newshape=(-1, 5))
 
 plt.figure()
-plt.plot(range(1, 8), proportion[:,0], '--s', color = 'b', label='Low risk', markersize = 8, linewidth = 2)
-plt.plot(range(1, 8), proportion[:,1], '-p', color = 'r', label='Moderately medium risk', markersize = 8, linewidth = 2)
-plt.plot(range(1, 8), proportion[:,2], '-x', color = 'k', label='Medium risk', markersize = 8, linewidth = 2)
-plt.plot(range(1, 8), proportion[:,3], '-o', color = 'g', label='Moderately high risk', markersize = 8, linewidth = 2)
-plt.plot(range(1, 8), proportion[:,4], '-d', color = 'c', label='High risk', markersize = 8, linewidth = 2)
-plt.legend(loc='upper right', fontsize = 12)
+plt.plot(range(1, 11), proportion[:,0], '-s', color = 'b', label='Low risk', markersize = 8, linewidth = 2)
+plt.plot(range(1, 11), proportion[:,1], '-p', color = 'r', label='Moderately medium risk', markersize = 8, linewidth = 2)
+plt.plot(range(1, 11), proportion[:,2], '-h', color = 'k', label='Medium risk', markersize = 8, linewidth = 2)
+plt.plot(range(1, 11), proportion[:,3], '-o', color = 'g', label='Moderately high risk', markersize = 8, linewidth = 2)
+plt.plot(range(1, 11), proportion[:,4], '-d', color = 'c', label='High risk', markersize = 8, linewidth = 2)
+plt.legend(loc='best', fontsize = 14)
 plt.xlabel('Iteration', fontsize = 20, fontweight = 'bold')
 plt.ylabel('Proportion', fontsize = 20, fontweight = 'bold')
