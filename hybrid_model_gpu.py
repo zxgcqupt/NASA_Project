@@ -283,7 +283,7 @@ if __name__ == "__main__":
   for k, (data_index, test_index) in enumerate(cv.split(X_org, Y_org)):
       print ('current fold: ', k+1)
       
-      if k >= 3:
+      if k >= 7:
         ### Split the data into three parts: 
         ### X_train, Y_train: train the data
         ### X_validation, Y_validation: trial data to obtain the performance metrics
